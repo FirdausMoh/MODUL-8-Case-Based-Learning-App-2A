@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "NoteApp",
+    "name": "MY Note",
     "slug": "NoteApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icons/logo.svg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icons/logo.svg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.fahrifirdauus.NoteApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4bbacc47-473d-4ad7-bae8-dae1953bff5b"
+      }
     }
   }
 }
